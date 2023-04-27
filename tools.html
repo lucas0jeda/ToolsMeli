@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mluStatusStyles.css">
+    <style>
+        body{ 
+            max-width: 600px;
+        }
+        p{
+            padding: 5px;
+        }
+    </style>
+    <title>Tools ML</title>
+</head>
+    <body>
+        <input type="text" name="Usertoken" id="_token" placeholder="Token">
+        <input type="text" name="user" id="_userId" placeholder="User ID">
+        <br><br> 
+            <summary>
+                Atributos / Categorias
+            </summary>
+            <textarea name="" id="_categorysAtttibuttes" cols="30" rows="10" placeholder="Categorias"></textarea>
+            <br>
+            <button type="button" name="" id="_checkAllAttributesForCategory">Listar Atributos</button>
+            <button type="button" name="" id="_checkRequiredAttributesForCategory">Listar Atributos obligatorios</button>
+            <button type="button" name="" id="_printAttributes">Imprimir Atributos</button>
+        </details>
+        <br><br>
+        <label for="_response" style="font-size: 2rem; margin-right: 30px;" >Response</label>
+        <br><br>
+        <div id="_response" style="border-color: black; border-style: solid; padding: 20px;">
+            
+        </div>
+        <script src="./js/attributesLogic.js"></script>
+      </body>
+    </body>
+</html>
